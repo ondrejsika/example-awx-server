@@ -1,0 +1,17 @@
+awx.sikademo.com
+
+[all:vars]
+dockerhub_base=ansible
+postgres_data_dir=/postgres-data
+docker_compose_dir=/awx
+pg_username=awx
+pg_database=awx
+pg_password=awx
+pg_port=5432
+awx_task_hostname=awx
+awx_web_hostname=awxweb
+secret_key=foo
+host_port=80
+admin_user=admin
+admin_password=password
+project_data_dir=/awx-projects
